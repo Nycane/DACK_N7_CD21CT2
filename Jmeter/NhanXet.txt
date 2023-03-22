@@ -1,0 +1,5 @@
+Sau Khi chạy xong Jmeter ở các mức 10,100,1000.Nhóm em có nhận xét như sau:
+-Khi Số Lượng User Truy Cập Ở Mức 10 thì khả năng xử lý của máy chủ có hiệu xuất tốt
+-Khi Số Lượng User Truy Cập Ở Mức 100 Thì Khả Năng xứ lý của server bị giảm , mức độ truy cập user khiến sever xử lý chậm 
+-Khi Số Lượng User Truy Cập Ở Mức 1000 Khả năng xử lý của sever yếu ,mức độ truy cập khiến sever bị quá tải
+-Các Giải Pháp để cải thiện : Nâng cấp sever
