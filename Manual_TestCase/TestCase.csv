@@ -1,0 +1,256 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Cloners),Outward issue link (Cloners),Custom field (Actual end),Custom field (Actual result),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test level),Custom field (Test steps),Custom field (Testcase result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+SC - Login -Try logging in with an already existing username and check if the user can login successfully.,N7-55,10276,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 9:17 AM,16/Feb/23 9:28 AM,22/Mar/23 10:42 PM,16/Feb/23 9:20 AM,,0,Login,"Email: [hoanganhquoc26032003@gmail.com|mailto:hoanganhquoc26032003@gmail.com]
+
+pass : 123123",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,Login to website link successfully,,,,,,,,,N7-36,Login,,,Login to website link successfully,,,,,0|i0014f:,,BAN Sprint 1,,,,,,,,system,"B1:Enter Email
+B2:Submit",Fail,,,Done
+SC -Login - Check if the user gets an error message if the login details are incorrect,N7-54,10275,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 9:14 AM,16/Feb/23 9:33 AM,22/Mar/23 10:42 PM,16/Feb/23 9:16 AM,,0,Login,"Họ: Hoang
+
+Tên : Quoc
+
+[Emai:|mailto:Emai:xuanhung@gmail.com] hoanganhquoc26032003@gmail.com
+
+pass:  quoc123456",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,Invalid account password,,,,,,,,,N7-36,Login,,,Invalid account password,,,,,0|i00147:,,BAN Sprint 1,,,,,,,,system,"B1: Enter all required fields
+B2:Submit",Pass,,,Done
+"SC -Verify Register - If the email already exists, the system will notify you that the email already exists",N7-53,10274,Story,To Do,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 9:08 AM,16/Feb/23 9:32 AM,22/Mar/23 10:42 PM,,,0,Register,"Họ: Hoang
+
+Tên : Quoc
+
+[Emai:|mailto:Emai:xuanhung@gmail.com] hoanganhquoc26032003@gmail.com
+
+pass:  123123",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,Email system already exists,,,,,,,,,N7-37,Register,,,Email system already exists,,,,,0|i0013z:,,BAN Sprint 1,,,,,,,,system,"B1: Enter all required fields
+B2:Submit",Pass,,,To Do
+"SC -Verify Register - After successful registration, the system will notify successful registration",N7-51,10272,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 8:59 AM,16/Feb/23 9:31 AM,22/Mar/23 10:42 PM,,,0,Register,"Họ: Hoang
+
+Tên : Quoc
+
+[Emai:|mailto:Emai:xuanhung@gmail.com] hoanganhquoc26032003@gmail.com
+
+pass:  123123",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,None,,,,,,,,,N7-37,Register,,,Sign Up Success,,,,,0|i0013j:,,BAN Sprint 1,,,,,,,,system,"B1: Enter all required fields
+B2:Submit",Pass,,,To Do
+"SC -Verify Register - After successful registration, log back in to your account to check if it works",N7-49,10270,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 7:43 AM,16/Feb/23 9:31 AM,22/Mar/23 10:42 PM,16/Feb/23 8:15 AM,,0,Login,"[Emai:|mailto:Emai:xuanhung@gmail.com] hoanganhquoc26032003@gmail.com
+
+pass:  123123",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,Successfully logged into the site,,,,,,,,,N7-36,Login,,,Successfully logged into the site,,,,,0|i0013b:,,BAN Sprint 1,,,,,,,,system,"B1: Enter all required fields
+B2:Submit",Pass,,,Done
+"SC - Login ,Cart,Pay-After successful login, users can purchase goods and pay",N7-48,10269,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 7:43 AM,16/Feb/23 8:15 AM,22/Mar/23 10:42 PM,16/Feb/23 8:15 AM,,0,Login,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,,,,,,,,,,N7-36,Login,,,Users purchase and pay successfully,,,,,0|i00133:,,BAN Sprint 1,,,,,,,,system,"B1:Add Add product to cart
+B2:Enter your delivery address information
+B3: Click Payment",Pass,,,Done
+SC - Login -Check if the forgot password function is linked to the account,N7-47,10268,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 7:42 AM,16/Feb/23 9:34 AM,22/Mar/23 10:42 PM,,,0,Login,Email: hoanganhquoc26032003@gmail.com,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,,,,,,,,,,N7-36,Login,,,Receive a verification code to recover your password,,,,,0|i0012v:,,BAN Sprint 1,,,,,,,,system,"B1:Enter Email
+B2:Submit",Fail,,,To Do
+"SC -Verify Register - If the registration is successful, the system will automatically login to the homepage",N7-45,10266,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,16/Feb/23 7:41 AM,16/Feb/23 9:30 AM,16/Feb/23 9:34 AM,16/Feb/23 8:15 AM,,0,Register,"Tên: Quoc
+
+Họ: Hoang
+
+[Emai:|mailto:Emai:xuanhung@gmail.com] hoanganhquoc26032003@gmail.com
+
+pass: 123123",,Hoàng Anh Quốc,62a1fec3954f50006fccfebb,,,,,,,,,,,,Automatically login to the site,,,,,,,,,N7-37,Register,,,Automatically login to the site,,,,,0|i0012f:,,BAN Sprint 1,,,,,,,,system,"B1: Enter all required fields
+B2:Submit",Pass,,,Done
+IPRG16- Verify Rgister - FirstName First character cannot have space,N7-40,10261,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 11:01 AM,05/Jan/23 2:35 PM,16/Feb/23 7:39 AM,,,0,NewAccount,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: h@gmail.com
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,,,,,,,,,,BAN-8,New Account,,, PassWord must not be blank,,,,,0|i0011b:,,,,,,,,,,integration,,Fail,,,To Do
+IPRG15- Verify Rgister - LastName First character cannot have space,N7-39,10260,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:59 AM,05/Jan/23 2:36 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: huj@gmail.com
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,Value valid,,,,,,,,,N7-37,Register,,,LastName First character cannot have space,,,,,0|i00113:,,,,,,,,,,integration,enter all require,Fail,,,To Do
+IPRG14 - Verify Rgister - PassWord Characters are not allowed,N7-38,10259,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:54 AM,05/Jan/23 2:37 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: huy@gmail.com
+
+mật khẩu; @12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,PassWord Characters are not allowed,,,,,0|i0010v:,,,,,,,,,,integration,enter all require,Fail,,,To Do
+Register,N7-37,10258,Epic,To Do,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Hùng Nguyễn,628ecc63f2ee4a0069e06403,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 10:48 AM,16/Feb/23 9:21 AM,05/Jan/23 1:59 PM,,,0,,,,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Register,To Do,,,purple,,,0|i0010n:,,,,,,,,,,,,,,,To Do
+Login,N7-36,10257,Epic,To Do,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Hùng Nguyễn,628ecc63f2ee4a0069e06403,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 10:48 AM,16/Feb/23 9:21 AM,22/Mar/23 10:42 PM,,,0,,,,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Login,To Do,,,purple,,,0|i0010f:,,,,,,,,,,,,,,,To Do
+IPRG13 - Verify Rgister - PassWord Special characters are not allowed,N7-35,10256,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:31 AM,05/Jan/23 2:38 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: trungg@gmail.com
+
+mật khẩu; @12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,PassWord Special characters are not allowed,,,,,0|i000wp:,,BAN Sprint 1,,,,,,,,integration,enter all require,Fail,,,To Do
+IPRG12 - Verify Rgister - PassWord First character can not have space,N7-34,10255,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:30 AM,05/Jan/23 10:34 AM,22/Mar/23 10:42 PM,,,0,NewAccount,"test data:
+
+Tên : !$
+
+Họ: ha
+
+email: tr@gmail.com
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,N7-32,,,,,,,,,,,BAN-8,New Account,,, PassWord must not be blank,,,,,0|i00107:,,,,,,,,,,integration,,Fail,,,To Do
+"IPLG04 -Verify Login -If the email is wrong, the system will report an error",N7-33,10254,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 10:27 AM,05/Jan/23 2:07 PM,05/Jan/23 2:02 PM,05/Jan/23 10:28 AM,,0,Login,"[Email:|mailto:Email:abc@gmail.com]hung092506823181@gmail.com
+
+Password:123456",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,Invalid login information,,,,,,,,,N7-36,Login,,,Invalid login information,,,,,0|i000zz:,,BAN Sprint 1,,,,,,,,integration,"B1: Enter all required fields
+B2:Submit",Pass,,,Done
+IPRG11 - Verify Rgister - Email First character can not have space,N7-32,10253,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:27 AM,05/Jan/23 2:38 PM,05/Jan/23 1:57 PM,,,0,Register,"test data:
+
+Tên : !$
+
+Họ: ha
+
+email: [hru123@gmail.com|mailto:hru123@gmail.com]
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,N7-34,N7-30,,value valid,,,,,,,,,N7-37,Register,,, PassWord must not be blank,,,,,0|i000zr:,,BAN Sprint 1,,,,,,,,integration,enter all require,Fail,,,To Do
+IPLG02 -Verify Login - Email cannot be blank,N7-31,10252,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 10:25 AM,05/Jan/23 2:32 PM,05/Jan/23 2:25 PM,05/Jan/23 10:26 AM,,0,Login,"[Email:|mailto:Email:abc@gmail.com]
+
+Password:123456",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,Email cannot be blank,,,,,,,,,N7-36,Login,,,Email cannot be blank,,,,,0|i000zj:,,BAN Sprint 1,,,,,,,,integration,"B1: Enter pass word
+B2:Submit",Pass,,,Done
+IPRG10 - Verify Rgister - LastName  cannot contain special characters,N7-30,10251,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:23 AM,05/Jan/23 2:31 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : !$
+
+Họ: ha
+
+email: [hru123@gmail.com|mailto:hru123@gmail.com]
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,N7-32,,,value valid,,,,,,,,,N7-37,Register,,, PassWord must not be blank,,,,,0|i000zb:,,,,,,,,,,integration,enter all requrie,Fail,,,To Do
+IPRG09 - Verify Rgister - FirstName must not have special characters,N7-29,10250,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:19 AM,05/Jan/23 2:31 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: !&
+
+email: [toi@gmail.com|mailto:toi@gmail.com]
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,, PassWord must not be blank,,,,,0|i000z3:,,,,,,,,,,integration,enter all require,Fail,,,To Do
+IPRG08 - Verify Rgister - PassWord Code must have 5  Digits,N7-28,10249,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:10 AM,05/Jan/23 2:30 PM,22/Mar/23 10:42 PM,05/Jan/23 10:13 AM,,0,Register,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: th@gmail.com
+
+mật khẩu; 1235",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,PassWord Code must have 5 Digits,,,,,,,,,N7-37,Register,,,PassWord Code must have 5 Digits,,,,,0|i000yv:,,,,,,,,,,integration,enter all require,Pass,,,Done
+IPRG07 - Verify Rgister - Email invalid,N7-27,10248,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:07 AM,05/Jan/23 2:34 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: ha
+
+email: ha123$@gmail.com
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Email can not must be blank,,,,,0|i000wr:,,BAN Sprint 1,,,,,,,,integration,"enter all require, skip email field",Fail,,,To Do
+IPRG06 - Verify Rgister - FirstName can not have numbers,N7-26,10247,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 10:04 AM,05/Jan/23 2:28 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : ha
+
+Họ: 1
+
+email: [g@gmail.com|mailto:trug@gmail.com]
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,N7-25,,value valid,,,,,,,,,N7-37,Register,,,First name must not be blank,,,,,0|i000yf:,,,,,,,,,,integration,"enter all require, enter number field first name",Fail,,,To Do
+IPRG05 - Verify Rgister - LastName can not have numbers,N7-25,10246,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:58 AM,05/Jan/23 2:00 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+Tên : 1
+
+Họ: ha
+
+email: [trug@gmail.com|mailto:trug@gmail.com]
+
+mật khẩu; 12356",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,N7-26,,,value valid,,,,,,,,,N7-37,Register,,,LastName must not be blank,,,,,0|i000y7:,,,,,,,,,,integration,enter all require and field LastName enter number,Fail,,,To Do
+IPRG04 - Verify Rgister - PassWord must not be blank,N7-24,10245,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:51 AM,05/Jan/23 1:57 PM,22/Mar/23 10:42 PM,05/Jan/23 1:57 PM,,0,Register,"First name: Hà
+
+Last Name: Trang
+
+Email: [ha123@gmail.com|mailto:ha123@gmail.com]
+
+password: (none)",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,, PassWord must not be blank,,,,,,,,,N7-37,Register,,, PassWord must not be blank,,,,,0|i000xz:,,BAN Sprint 1,,,,,,,,integration,"enter all require, skip password field",Pass,,,Done
+IPRG03 - Verify Register - Email must not be blank,N7-23,10244,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:50 AM,05/Jan/23 1:54 PM,22/Mar/23 10:42 PM,,,0,Register,"firstName: Hà
+
+LastName: Trang
+
+Email: (none)
+
+password: 12345",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value invalid,,,,,,,,,N7-37,Register,,, Email must not be blank,,,,,0|i000xr:,,BAN Sprint 1,,,,,,,,integration,"enter all require, skip email field",Fail,,,To Do
+"IPLG03 -Verify Login -If the password is wrong, the system will display an error",N7-22,10243,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 9:45 AM,05/Jan/23 1:59 PM,05/Jan/23 1:58 PM,05/Jan/23 9:46 AM,,0,Login,"[Email:|mailto:Email:abc@gmail.com]hung0925068181@gmail.com
+
+Password:1234",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,Invalid login information,,,,,,,,,N7-36,Login,,,Invalid login information,,,,,0|i000xj:,,BAN Sprint 1,,,,,,,,integration,"B1: Enter all required fields
+B2:Submit",Pass,,,Done
+IPRG02 - Verify Rgister -FirstName must not be blank,N7-21,10242,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:45 AM,05/Jan/23 1:51 PM,22/Mar/23 10:42 PM,,,0,Register,"firstName: (none)
+
+LastName: Trang
+
+Email: [ha123@gmail.com|mailto:ha123@gmail.com]
+
+password: 12345",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,firstname must not be blank,,,,,0|i000xb:,,BAN Sprint 1,,,,,,,,integration,"enter all require, skip first name field",Fail,,,To Do
+IPRG01 - Verify Rgister - LastName must not be blank,N7-20,10241,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:40 AM,05/Jan/23 1:49 PM,05/Jan/23 1:57 PM,,,0,Register,"firstName: Hà
+
+LastName: (none)
+
+Email: [ha123@gmail.com|mailto:ha123@gmail.com]
+
+password: 12345",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,LastName must not be blank,,,,,0|i000x3:,,BAN Sprint 1,,,,,,,,integration,enter all field and skip field lastName,Fail,,,To Do
+IPLG01 -Verify login - Password cannot be blank,N7-19,10240,Story,Done,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 9:21 AM,05/Jan/23 1:56 PM,05/Jan/23 1:56 PM,05/Jan/23 9:45 AM,,0,Login,"[Email:|mailto:Email:abc@gmail.com]hung0925068118@gmail.com
+
+Password:",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,Password cannot be blank,,,,,,,,,N7-36,Login,,,Password cannot be blank,,,,,0|i000wv:,,BAN Sprint 1,,,,,,,,integration,"B1: Enter Email
+B2:Submit",Pass,,,Done
+LG18 - PassWord - Password cannot be blank,N7-18,10239,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 9:18 AM,05/Jan/23 1:56 PM,05/Jan/23 1:56 PM,,,0,Login,"test data:
+
+password: (none)",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,value valid,,,,,,,,,N7-36,Login,,,Password cannot be blank,,,,,0|i000wn:,,BAN Sprint 1,,,,,,,,unit,"B1: Enter password
+B2:Delete password",Fail,,,To Do
+LG17 - Login - Email cannot be blank,N7-17,10238,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Hùng Nguyễn,628ecc63f2ee4a0069e06403,05/Jan/23 9:14 AM,05/Jan/23 1:56 PM,05/Jan/23 1:55 PM,,,0,Login,"test data:
+
+email: (none)",,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,,,,,,,,,,,value valid,,,,,,,,,N7-36,Login,,,Email cannot blank,,,,,0|i000wf:,,BAN Sprint 1,,,,,,,,unit,"B1: Enter Email
+B2:Delete Email",Fail,,,To Do
+RG16 - PassWord - First character can not have space,N7-16,10237,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 9:01 AM,05/Jan/23 1:42 PM,05/Jan/23 9:13 AM,,,0,Register,"test data:
+
+mật khẩu:  ",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,First character can not have space,,,,,0|i000w7:,,BAN Sprint 1,,,,,,,,unit,enter space,Fail,,,To Do
+RG15-PassWord- Special characters are not allowed,N7-15,10236,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:59 AM,05/Jan/23 1:41 PM,22/Mar/23 10:42 PM,,,0,Register,"test data:
+
+mật khẩu: $",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Special characters are not allowed,,,,,0|i000vz:,,BAN Sprint 1,,,,,,,,unit,enter special character field password,Fail,,,To Do
+RG14- PassWord- Password must have 5 digits,N7-14,10235,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:57 AM,05/Jan/23 1:40 PM,22/Mar/23 10:42 PM,05/Jan/23 9:29 AM,,0,Register,"test data:
+
+Mật khẩu: 1234",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Password must have 5 digits,,,,,0|i000vr:,,BAN Sprint 1,,,,,,,,unit,enter 4 digits field password,Fail,,,To Do
+RG13 -Email - Email ID must not be blank,N7-13,10234,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:44 AM,05/Jan/23 1:38 PM,22/Mar/23 10:42 PM,05/Jan/23 9:31 AM,,0,Register,"Test Data:
+
+Email: (none)",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Email ID must not be blank,,,,,0|i000vj:,,BAN Sprint 1,,,,,,,,unit,skip field email,Fail,,,To Do
+RG12-Email- Email ID is not valid,N7-12,10233,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:37 AM,05/Jan/23 2:17 PM,22/Mar/23 10:42 PM,,,0,Register,"Test Data: 
+
+Email: trang^@gmail.com",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Email ID is not valid,,,,,0|i000vb:,,,,,,,,,,unit,enter email invalid field ,Pass,,,To Do
+RG11- LastName- LastName can't have special characters,N7-11,10232,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:34 AM,05/Jan/23 2:17 PM,22/Mar/23 10:42 PM,,,0,Register,"Test Data:
+
+Last Name: #",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Last name can't have special characters,,,,,0|i000v3:,,BAN Sprint 1,,,,,,,,unit,enter special characters field LastName,Fail,,,To Do
+RG10 -FirstName- FirstName can't have special characters ,N7-10,10231,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:32 AM,05/Jan/23 2:17 PM,05/Jan/23 1:54 PM,,,0,Register,"Test Data: 
+
+Họ: #",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,FirstName can't have special characters ,,,,,0|i000uv:,,,,,,,,,,unit,enter special characters field firstname,Fail,,,To Do
+RG09 - FirstName - number are not allowed,N7-9,10230,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:30 AM,05/Jan/23 2:17 PM,05/Jan/23 1:54 PM,,,0,Register,"Test Data
+
+Họ: 1",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,First character cannot have space,,,,,0|i000un:,,BAN Sprint 1,,,,,,,,unit,Enter field number first name,Fail,,,To Do
+RG08- FirstName - First character cannot have space,N7-8,10229,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:29 AM,05/Jan/23 2:16 PM,05/Jan/23 1:54 PM,,,0,Register,"Test Data
+
+Họ:  ",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,First character cannot have space,,,,,0|i000uf:,,BAN Sprint 1,,,,,,,,unit,enter space,Fail,,,To Do
+RG07- LastName-First character cannot have space,N7-7,10228,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:26 AM,05/Jan/23 2:16 PM,05/Jan/23 10:55 AM,,,0,Register,"Test Data
+
+Tên:  ",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,First character cannot have space,,,,,0|i000u7:,,BAN Sprint 1,,,,,,,,unit,enter space,Fail,,,To Do
+RG06- LastName-Number are not allowed,N7-6,10227,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:22 AM,05/Jan/23 2:15 PM,05/Jan/23 10:54 AM,,,0,Register,"Test data:
+
+Last Name: 1",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,The first character is not number,,,,,0|i000tz:,,BAN Sprint 1,,,,,,,,unit,1) enter field number LastName,Fail,,,To Do
+RG05 - LastName - LastName can't have special characters,N7-5,10226,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:20 AM,05/Jan/23 2:16 PM,05/Jan/23 10:54 AM,,,0,Register,"Test Data:
+
+Tên: #",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,LastName can't have special characters,,,,,0|i000tr:,,BAN Sprint 1,,,,,,,,unit,"enter all require, enter number field last name",Fail,,,To Do
+RG04 - Password - Password cannot be blank,N7-4,10225,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,Done,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:10 AM,05/Jan/23 2:14 PM,05/Jan/23 10:50 AM,05/Jan/23 1:25 PM,,0,Register,"Test Data: 
+
+Mật khẩu: (none)",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Password cannot be left blank,,,,,0|i000tj:,,BAN Sprint 1,,,,,,,,unit,skip field Password,Fail,,,To Do
+RG03 - Email - First character can't have space,N7-3,10224,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:06 AM,05/Jan/23 2:14 PM,05/Jan/23 10:49 AM,,,0,Register,"Test Data:
+
+Email: ",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,First character can't have space,,,,,0|i000tb:,,BAN Sprint 1,,,,,,,,,1) enter space,Fail,,,To Do
+RG02  - FirstName - first name must not be blank,N7-2,10223,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 8:03 AM,05/Jan/23 2:13 PM,05/Jan/23 10:49 AM,,,0,Register,"Test Data
+
+Họ:  (none)",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,fristname must not be blank,,,,,0|i000t3:,,BAN Sprint 1,,,,,,,,unit,1) skip field firstName,Fail,,,To Do
+RG01- LastName - LastName must not be blank,N7-1,10222,Bug,Open,N7,Nhom_7,software,Hùng Nguyễn,628ecc63f2ee4a0069e06403,,Medium,,,,Huyền Trang Hà,639136b1213a315af34b92d0,Huyền Trang Hà,639136b1213a315af34b92d0,05/Jan/23 7:57 AM,05/Jan/23 2:13 PM,05/Jan/23 10:49 AM,,,0,Register,"Test Data:
+
+Tên: (none)",,Huyền Trang Hà,639136b1213a315af34b92d0,,,,,,,,,,,,value valid,,,,,,,,,N7-37,Register,,,Lastname must not be blank,,,,,0|i000sv:,,BAN Sprint 1,,,,,,,,unit,skip field LastName,Fail,,,To Do
